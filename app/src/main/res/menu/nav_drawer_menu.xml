@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/cotizar"
+            android:title="@string/menu_cotizar" />
+
+        <item
+            android:id="@+id/servicios"
+            android:title="@string/menu_servicios" />
+
+        <item
+            android:id="@+id/ver_cotizaciones"
+            android:title="@string/menu_ver_cotizaciones" />
+
+    </group>
+</menu>

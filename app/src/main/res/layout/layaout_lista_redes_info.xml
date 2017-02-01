@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/bordeBottom"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="30dp">
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="30dp">
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/redes"
+        android:id="@+id/imageViewR"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Redes de Datos y Voz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/subTitleServicios"
+        android:textColor="@color/colorBlueLigth"
+        android:layout_weight="1"
+        android:paddingLeft="20dp" />
+
+</LinearLayout>
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR1"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Servidores"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR2"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Plantas telefónicas"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR3"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Configuración de líneas telefónicas IP’S"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR4"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Cofiguración de routers y switches"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR5"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Diseño de redes de voz, datos y industriales y oficinas"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR6"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Configuración de equipos de oficina"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR7"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Configuración de redes LAN, MA, etc."
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@mipmap/vineta"
+        android:id="@+id/imageViewR8"
+        android:layout_weight="1" />
+
+    <TextView
+        android:text="Configuración y diseño de antenas"
+        android:textAppearance="@style/itemsListServicios"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingLeft="5dp" />
+
+</LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@mipmap/vineta"
+            android:id="@+id/imageViewR9"
+            android:layout_weight="1" />
+
+        <TextView
+            android:text="Diseño y configuración de redes WIFIs"
+            android:textAppearance="@style/itemsListServicios"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingLeft="5dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
+

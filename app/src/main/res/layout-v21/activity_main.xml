@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@mipmap/bg_main_menu"
+        android:contentDescription="@string/app_name"/>
+
+    <RelativeLayout
+        style="@style/menuBtn"
+        android:id="@+id/btnServicios"
+        android:layout_centerInParent="true"
+        android:background="@drawable/ripple_shape_circle"
+        android:onClick="doClickServicios">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/btn_servicios"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/menuBtn"
+        android:layout_above="@+id/btnServicios"
+        android:background="@drawable/ripple_shape_circle"
+        android:layout_marginBottom="15dp"
+        android:onClick="doClickCotizar">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/btn_cotizar"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/menuBtn"
+        android:layout_below="@+id/btnServicios"
+        android:background="@drawable/ripple_shape_circle"
+        android:layout_marginTop="15dp"
+        android:onClick="doClickVerCotizacion">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/btn_consulta"
+            android:contentDescription="@string/app_name"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

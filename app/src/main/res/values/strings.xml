@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Nuestro Aliado</string>
+
+    <!-- menu -->
+    <string name="menu_cotizar">Cotizar</string>
+    <string name="menu_servicios">Servicios</string>
+    <string name="menu_ver_cotizaciones">Ver cotizaciones</string>
+
+    <!--drawer -->
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
+
+    <!--Cotizar -->
+    <string name="tab_cotizacion">Cotización</string>
+    <string name="tab_visita">Visita</string>
+
+    <!-- Datos cliente -->
+    <string name="title_datos_cliente">Datos Cliente</string>
+    <string name="hint_nombre_apellido">Nombre y Apellido</string>
+    <string name="hint_telefono_celular">Teléfono o Celular</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_empresa">Compañia</string>
+    <string name="hint_descripcion">Descripción</string>
+
+    <!-- Buttons -->
+    <string name="btn_borrar">Borrar</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_siguiente">Siguiente</string>
+
+    <!-- Errors -->
+    <string name="error_campo_requerido">Campo requerido</string>
+    <string name="error_email_invalido">Email es invalid</string>
+
+</resources>

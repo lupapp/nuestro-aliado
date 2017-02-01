@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#004693</color>
+    <color name="colorPrimaryDark">#002C62</color>
+
+    <!--General color App-->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlueDark">#002036</color>
+    <color name="colorBlueDarkLight">#002C62</color>
+    <color name="colorBlueLigth">#009ADA</color>
+    <color name="colorBlueNormal">#004693</color>
+    <color name="colorGrayLigth">#e2e2e4</color>
+    <color name="colorBlueDarkOpacity">#CC002036</color>
+
+</resources>
